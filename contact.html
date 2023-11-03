@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="img/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>contact Us</h1>
+    </section>
+
+    <!-- || contact us -->
+    
+    <section class="location">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7950.390207480792!2d6.916194!3d4.906991!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069da7f7bf8c433%3A0x6665c08e429606dd!2sUniversity%20of%20Port%20Harcourt!5e0!3m2!1sen!2sus!4v1699008432280!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+     <div class="row">
+      <div class="contact-col">
+       <div>
+        <i class="fa fa-home"></i>
+        <span>
+         <h5>local government, Abuja campus, university of, 500272</h5>
+        </span>
+        <p>Port Harcourt, Nigeria</p>
+       </div>
+
+       <div>
+        <i class="fa fa-phone"></i>
+        <span>
+         <h5>+1 0123456789</h5>
+        </span>
+        <p>Monday to Saturday, 10AM to 6PM</p>
+       </div>
+
+       <div>
+        <i class="fa fa-envelope-o"></i>
+        <span>
+         <h5>uniport.edu.ng</h5>
+        </span>
+        <p>Email us your query</p>
+       </div>
+
+      </div>
+      <div class="contact-col"></div>
+     </div>
+    </section>
+
+
+    <!-- || Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius facilis
+        odit <br />eaque nulla eum vel optio a repellat magnam quaerat.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i>by ME</p>
+    </section>
+
+    <!-- || JavaScript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
